@@ -176,8 +176,9 @@ waitForCompletion()
             status = submitClient.submitJob(jobId, submitJobDir.toString(), job.getCredentials());
                 //（1）构造启动 MR AM 所需的所有信息
                 ApplicationSubmissionContext appContext = createApplicationSubmissionContext(conf, jobSubmitDir, ts);
-                //（2）创建 MrAppMaster 并执行调度
+                //（2）创建 Application
                 ApplicationId applicationId = resMgrDelegate.submitApplication(appContext);
+                //（3）创建 MrAppMaster 并执行调度
                 ApplicationReport appMaster = resMgrDelegate.getApplicationReport(applicationId);
 ```
 ##### FileInputFormat切片源码解析（input.getSplits(job)）
