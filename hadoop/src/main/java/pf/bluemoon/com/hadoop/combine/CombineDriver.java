@@ -11,6 +11,8 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import pf.bluemoon.com.hadoop.worldcount.HelloMapper;
 import pf.bluemoon.com.hadoop.worldcount.HelloReducer;
 
+import java.util.Queue;
+
 /**
  * @Author chaoyou
  * @Date Create in 10:27 2022/8/9
