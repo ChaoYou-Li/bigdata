@@ -32,8 +32,8 @@ public class ServiceCenter implements Server {
     private static String host;
 
     public ServiceCenter(String host, int port) {
-        this.host = host;
-        this.port = port;
+        ServiceCenter.host = host;
+        ServiceCenter.port = port;
     }
 
     @Override
@@ -81,6 +81,7 @@ public class ServiceCenter implements Server {
             this.clent = client;
         }
 
+        @Override
         public void run() {
             ObjectInputStream input = null;
             ObjectOutputStream output = null;
