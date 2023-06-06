@@ -41,7 +41,7 @@ public class NettyServer {
                         //给 pipeline 设置处理器
                         @Override
                         protected void initChannel(SocketChannel ch) throws Exception {
-                            // 往 pipeline 通道中加入 handler
+                            // 往 pipeline 通道中加入自定义处理逻辑的 handler
                             ch.pipeline().addLast(new NettyServerHandler());
                         }
                     }); // 给我们的 workerGroup 的 EventLoop 对应的管道设置处理器

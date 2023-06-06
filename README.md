@@ -63,3 +63,5 @@
         ----------------------                        --------------------------                            -----------------------------------                                 ------------
 ```
 
+Not compatible with the version of your running IDE (IntelliJ IDEA 2022.3)
+Compatible with IntelliJ IDEA (Ultimate, Community, Educational), Android Studio, Aqua
