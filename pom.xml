@@ -30,6 +30,7 @@
         <module>zookeeper</module>
         <module>common</module>
         <module>netty</module>
+        <module>grab</module>
     </modules>
 
     <dependencies>
