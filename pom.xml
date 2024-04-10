@@ -23,14 +23,16 @@
         <module>elasticsearch</module>
         <module>kafka</module>
         <module>spark</module>
-        <module>redis</module>
         <module>hbase</module>
+        <module>redis</module>
         <module>flume</module>
         <module>scala</module>
         <module>zookeeper</module>
         <module>common</module>
         <module>netty</module>
         <module>grab</module>
+        <module>algorithm</module>
+        <module>datajpa</module>
     </modules>
 
     <dependencies>
